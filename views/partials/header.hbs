@@ -1,1 +1,10 @@
 {{!--Partial for header--}}
+<header class="container header">
+    <h1 class="header-title">Welcome to this awesome workshop</h1>
+    <span class="welcome-message">
+      Hello {{user.firstname}}
+      {{# isAdmin}}
+        {{user.role}}
+      {{/ isAdmin}}
+    </span>
+</header>

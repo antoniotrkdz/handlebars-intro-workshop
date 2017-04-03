@@ -5,7 +5,7 @@
   "main": "src/start.js",
   "scripts": {
     "start": "node src/start.js",
-    "devStart": "nodemon src/start.js",
+    "devStart": "nodemon src/start.js -e 'js, css, html, hbs'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
